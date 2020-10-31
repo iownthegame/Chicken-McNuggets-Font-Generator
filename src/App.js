@@ -1,0 +1,48 @@
+import React, { useState } from 'react';
+import './App.css';
+
+function App() {
+  const [text, setText] = useState('');
+  const [image, setImage] = useState(null);
+
+  const handleTextChange = (e) => {
+    setText(e.target.value)
+
+    if (!e.target.value) {
+      setImage(null)
+      return
+    }
+
+    const style = {
+      font: 'Chicken_McNuggets',
+      align: 'center',
+      size: 18,
+      background: 'transparent',
+      lineHeight: '1.6em',
+    };
+    const textImage = window.TextImage(style);
+    const img = textImage.toImage(e.target.value);
+    setImage(img);
+    // console.log(img)
+  }
+
+  return (
+    <div className="App">
+      <header className="App-header">
+        <p id="title">Chicken McNuggets Font Generator</p>
+
+        <div>
+          <textarea placeholder="type your message here" rows="6" cols="80" onChange={handleTextChange}></textarea>
+          {image &&
+            <>
+              <div id="result" dangerouslySetInnerHTML={{ __html: image.outerHTML }} />
+              <a download={`${text}.png`} href={image.src} target="_blank" rel="noreferrer">Download image</a>
+            </>
+          }
+        </div>
+      </header>
+    </div>
+  );
+}
+
+export default App;

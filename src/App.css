@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Chicken_McNuggets';
+  src: local('Chicken_McNuggets'), url(./fonts/ChickenMcNuggets.ttf) format('truetype');
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #00bcd4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#title {
+  font-family: 'Chicken_McNuggets';
+}
+
+#result {
+  margin: 10px 0px;
+}
+
+textarea {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 0.5em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  background: orangered;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+a:hover {
+  background: orange;
+}
