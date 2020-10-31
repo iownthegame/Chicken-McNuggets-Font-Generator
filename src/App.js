@@ -16,7 +16,7 @@ function App() {
     const style = {
       font: 'Chicken_McNuggets',
       align: 'center',
-      size: 18,
+      size: 20,
       background: 'transparent',
       lineHeight: '1.6em',
     };
@@ -30,16 +30,13 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p id="title">Chicken McNuggets Font Generator</p>
-
-        <div>
-          <textarea placeholder="type your message here" rows="6" cols="80" onChange={handleTextChange}></textarea>
-          {image &&
-            <>
-              <div id="result" dangerouslySetInnerHTML={{ __html: image.outerHTML }} />
-              <a download={`${text}.png`} href={image.src} target="_blank" rel="noreferrer">Download image</a>
-            </>
-          }
-        </div>
+        <textarea placeholder="type your message here" rows="6" onChange={handleTextChange}></textarea>
+        {image &&
+          <>
+            <div id="result" dangerouslySetInnerHTML={{ __html: image.outerHTML }} />
+            <a download={`${text}.png`} href={image.src} target="_blank" rel="noreferrer">Download image</a>
+          </>
+        }
       </header>
     </div>
   );
