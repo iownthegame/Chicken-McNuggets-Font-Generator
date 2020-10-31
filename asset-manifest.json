@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Chicken-McNuggets-Font-Generator/static/css/main.d377ed9c.chunk.css",
+    "main.js": "/Chicken-McNuggets-Font-Generator/static/js/main.70c1cbe5.chunk.js",
+    "main.js.map": "/Chicken-McNuggets-Font-Generator/static/js/main.70c1cbe5.chunk.js.map",
+    "runtime-main.js": "/Chicken-McNuggets-Font-Generator/static/js/runtime-main.70ee2737.js",
+    "runtime-main.js.map": "/Chicken-McNuggets-Font-Generator/static/js/runtime-main.70ee2737.js.map",
+    "static/js/2.40c2c58b.chunk.js": "/Chicken-McNuggets-Font-Generator/static/js/2.40c2c58b.chunk.js",
+    "static/js/2.40c2c58b.chunk.js.map": "/Chicken-McNuggets-Font-Generator/static/js/2.40c2c58b.chunk.js.map",
+    "static/js/3.99f8b72f.chunk.js": "/Chicken-McNuggets-Font-Generator/static/js/3.99f8b72f.chunk.js",
+    "static/js/3.99f8b72f.chunk.js.map": "/Chicken-McNuggets-Font-Generator/static/js/3.99f8b72f.chunk.js.map",
+    "index.html": "/Chicken-McNuggets-Font-Generator/index.html",
+    "static/css/main.d377ed9c.chunk.css.map": "/Chicken-McNuggets-Font-Generator/static/css/main.d377ed9c.chunk.css.map",
+    "static/js/2.40c2c58b.chunk.js.LICENSE.txt": "/Chicken-McNuggets-Font-Generator/static/js/2.40c2c58b.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Chicken-McNuggets-Font-Generator/static/media/ChickenMcNuggets.e6dc3c6a.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.70ee2737.js",
+    "static/js/2.40c2c58b.chunk.js",
+    "static/css/main.d377ed9c.chunk.css",
+    "static/js/main.70c1cbe5.chunk.js"
+  ]
+}
