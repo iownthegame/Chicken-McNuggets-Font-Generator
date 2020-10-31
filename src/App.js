@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import GithubCorner from 'react-github-corner';
 import './App.css';
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
           </>
         }
       </header>
+      <GithubCorner href="https://github.com/iownthegame/Chicken-McNuggets-Font-Generator" />
     </div>
   );
 }
