@@ -7,9 +7,10 @@ function App() {
   const [image, setImage] = useState(null);
 
   const handleTextChange = (e) => {
-    setText(e.target.value)
+    const value = e.target.value.trim();
+    setText(value)
 
-    if (!e.target.value) {
+    if (!value) {
       setImage(null)
       return
     }
@@ -22,7 +23,7 @@ function App() {
       lineHeight: '1.6em',
     };
     const textImage = window.TextImage(style);
-    const img = textImage.toImage(e.target.value);
+    const img = textImage.toImage(value);
     setImage(img);
     // console.log(img)
   }
@@ -30,12 +31,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p id="title">Chicken McNuggets Font Generator</p>
+        <h2>麥克雞塊體產生器</h2>
+        <div id="title">Chicken McNuggets Font Generator</div>
         <textarea placeholder="type your message here" rows="6" onChange={handleTextChange}></textarea>
         {image &&
           <>
             <div id="result" dangerouslySetInnerHTML={{ __html: image.outerHTML }} />
-            <a download={`${text}.png`} href={image.src} target="_blank" rel="noreferrer">Download image</a>
+            <a className="download" download={`${text}.png`} href={image.src} target="_blank" rel="noreferrer">Download image</a>
           </>
         }
       </header>

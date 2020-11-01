@@ -22,10 +22,11 @@
 
 #title {
   font-family: 'Chicken_McNuggets';
+  margin-bottom: 30px;
 }
 
 #result {
-  margin: 10px 0px;
+  margin: 20px 0px;
 }
 
 textarea {
@@ -39,17 +40,18 @@ textarea {
   max-width: 600px;
 }
 
-a {
+a.download {
   text-decoration: none;
   color: inherit;
-  background: orangered;
-  padding: 10px 20px;
+  background: orange;
+  color: white;
+  padding: 15px 20px;
   border-radius: 10px;
   font-size: 0.6em;
   font-weight: bold;
   margin-top: 30px;
 }
 
-a:hover, a:active {
-  background: orange;
+a.download:hover, a.download:active {
+  background: coral;
 }
