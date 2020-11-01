@@ -1,8 +1,9 @@
-# Chicken-McNuggets-Font-Generator
+# Chicken-McNuggets-Font-Generator 麥克雞塊體產生器
 
 ## Description
 
 Implement an online generator to convert input text with Chicken-McNuggets font provided by `McDownloads Taiwan` to an image.
+將輸入的文字套用由台灣麥當勞提供的麥克雞塊體後產生成圖片檔案。
 
 ## Demo
 [Project page](https://iownthegame.github.io/Chicken-McNuggets-Font-Generator/)
