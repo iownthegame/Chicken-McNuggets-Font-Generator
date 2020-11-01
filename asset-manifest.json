@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Chicken-McNuggets-Font-Generator/static/css/main.4d45600e.chunk.css",
-    "main.js": "/Chicken-McNuggets-Font-Generator/static/js/main.66264d77.chunk.js",
-    "main.js.map": "/Chicken-McNuggets-Font-Generator/static/js/main.66264d77.chunk.js.map",
+    "main.css": "/Chicken-McNuggets-Font-Generator/static/css/main.2c7e6565.chunk.css",
+    "main.js": "/Chicken-McNuggets-Font-Generator/static/js/main.43285f16.chunk.js",
+    "main.js.map": "/Chicken-McNuggets-Font-Generator/static/js/main.43285f16.chunk.js.map",
     "runtime-main.js": "/Chicken-McNuggets-Font-Generator/static/js/runtime-main.54ee0d6c.js",
     "runtime-main.js.map": "/Chicken-McNuggets-Font-Generator/static/js/runtime-main.54ee0d6c.js.map",
     "static/js/2.ab4c90b6.chunk.js": "/Chicken-McNuggets-Font-Generator/static/js/2.ab4c90b6.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.d71ab355.chunk.js": "/Chicken-McNuggets-Font-Generator/static/js/3.d71ab355.chunk.js",
     "static/js/3.d71ab355.chunk.js.map": "/Chicken-McNuggets-Font-Generator/static/js/3.d71ab355.chunk.js.map",
     "index.html": "/Chicken-McNuggets-Font-Generator/index.html",
-    "static/css/main.4d45600e.chunk.css.map": "/Chicken-McNuggets-Font-Generator/static/css/main.4d45600e.chunk.css.map",
+    "static/css/main.2c7e6565.chunk.css.map": "/Chicken-McNuggets-Font-Generator/static/css/main.2c7e6565.chunk.css.map",
     "static/js/2.ab4c90b6.chunk.js.LICENSE.txt": "/Chicken-McNuggets-Font-Generator/static/js/2.ab4c90b6.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Chicken-McNuggets-Font-Generator/static/media/ChickenMcNuggets.e6dc3c6a.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.54ee0d6c.js",
     "static/js/2.ab4c90b6.chunk.js",
-    "static/css/main.4d45600e.chunk.css",
-    "static/js/main.66264d77.chunk.js"
+    "static/css/main.2c7e6565.chunk.css",
+    "static/js/main.43285f16.chunk.js"
   ]
 }
